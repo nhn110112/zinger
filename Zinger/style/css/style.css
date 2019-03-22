@@ -57,7 +57,7 @@
     }
 
     .main-top {
-        background: url(https://raw.githubusercontent.com/nhn110112/zinger/master/Zinger/img/img1.jpg) no-repeat bottom right;
+        background: url(https://raw.githubusercontent.com/nhn110112/zinger/master/Zinger/img/img1.png) no-repeat bottom right;
         /* background-image: url(/img/img1.png) ; */
         height: 100%;
         /* background-repeat: no-repeat; */
@@ -200,7 +200,7 @@
     }
 
     .choose {
-        background: url(/img/shape1.png) no-repeat bottom right;
+        background: url(https://raw.githubusercontent.com/nhn110112/zinger/master/Zinger/img/shape1.png) no-repeat bottom right;
         height: 130%;
     }
 
