@@ -208,17 +208,317 @@
         font-size: 55px;
         font-weight: bold;
         position: relative;
-        top: 123px;
+        top: 168px;
     }
 
     .plus {
         position: relative;
-        top: 180px;
+        top: 225px;
     }
 
     .plus>div>div {
         height: 262px;
-        border: 1px solid black;
-        margin-bottom: 30px;
+        margin-bottom: 33px;
+    }
+
+    .classWithPad { 
+        padding-top: 30px;
+        width: 351px;
+        height: 261px;
+    }
+
+    .choice>div>div {
+        border: 1px solid #dfdcdc;
         background-color: white;
+    }
+
+    .choice>div>div>div:nth-child(2) {
+        padding-top: 25px;
+        color: #714EFF;
+        font-size: 1.5rem;
+    }
+
+    .choice>div>div>div:last-child {
+        padding-top: 30px;
+    }
+
+    .choice img {
+        width: 60px;
+        height: 60px;
+        overflow: hidden;
+    }
+
+    .price {
+        background-color: #F7F7F7;
+        height: 120%;
+    }
+
+    .price-plan {
+        position: relative;
+        top: 100px;
+        font-size: 3rem;
+        font-weight: bolder;
+    }
+
+    .table-price {
+        position: relative;
+        top: 150px; 
+    }
+
+    .table {
+        margin-left: -15px;
+        margin-right: -15px;
+    }
+
+    .table-price>table {
+        width: 100%;
+    }
+
+    .table-price td {
+        padding-left: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .table-price tr td:first-child {
+        background-color: #714EFF;
+        color:white;
+        padding-right: 30px;
+    }
+
+    .table-price tr:not(:first-child):not(:last-child) td:first-child {
+        border-bottom: 1px solid #A993FD;
+    }
+
+    .table-price tr:not(:first-child):not(:last-child) td:not(:first-child) {
+        border-bottom: 1px solid black;
+    }
+
+    .table-price tr:first-child {
+        color:white;
+        font-size: 1.2rem;
+        background-color: #714EFF;
+    }
+
+    .table-price button {
+        background-color: white;
+        border: none;
+        border: 1px solid #714EFF;
+        border-radius: 30px;
+        color: #714EFF;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-bottom: 5px;
+        font-size: 1.1rem;
+    }
+
+    .sign-up:hover button {
+        background-color: #714EFF;
+        color: white;
+    }
+
+    .package {
+        background: url(/img/ordernowbg.jpg) no-repeat;
+        height: 332px;
+    }
+
+    .purple {
+        background-color: #5924faa6;
+        height :100%;
+        color: white;
+    }
+
+    .purple>div>div {
+        position: relative;
+    }
+
+    .at-now {
+        top: 120px;
+        font-size: 1.4rem;
+        font-weight: bold;
+    }
+
+    .package-with {
+        top: 110px;
+        font-size: 3rem;
+        font-weight: bolder;
+    }
+
+    .order-now button {
+        position: relative;
+        left: 80%;
+        background-color: #714EFF;
+        border: none;
+        border: 2px solid white;
+        border-radius: 30px;
+        color: white;
+        padding: 10px 45px;
+        font-weight: bold;
+        font-size: 1.1rem;
+    }
+
+    .order-now:hover button {
+        background-color: white;
+        border: 2px solid white;
+        color: #714EFF;
+    }
+
+    .servieces {
+        padding-top: 122px;
+        padding-bottom: 122px;
+    }
+
+    .classserviece { 
+        padding-top: 20px;
+        width: 254px;
+        height: 293px;
+        padding-left: 20px;
+        padding-right: 20px;
+        border: 1px solid #F0F0F0;
+        background-color: white;
+        color: black;
+    }
+
+    .classserviece>div:nth-child(2) {
+        padding-top: 25px;
+        color: #714EFF;
+        font-size: 1.5rem;
+    }
+
+    .classserviece>div:last-child {
+        padding-top: 30px;
+    }
+
+    .read-more {
+        font-size: 1rem;
+    }
+
+    .classserviece img {
+        width: 60px;
+        height: 60px;
+        overflow: hidden;
+    }
+
+    .plus-serv>div>div {
+        height: 293px;
+        margin-bottom: 33px;
+    }
+
+    .plus-serv>div>div:hover .classserviece {
+        box-shadow: 3px 3px 8px 8px #e4e3e3;
+    }
+
+    .our-main {
+        font-size:3.2rem;
+        font-weight: bold;
+        padding-top: 10px;
+    }
+
+    .enjoy {
+        font-size: 1.15rem;
+        color: #6E6E6E;
+    }
+
+    .main-serviece {
+        font-size: 1.1rem;
+    }
+
+    .experiences {
+        background-color: #714eff;
+        color: white;
+        padding-top: 122px;
+        padding-bottom: 122px;
+    }
+
+    .dowload-experiences {
+        font-size: 3.2rem;
+        font-weight: bold;
+        line-height: 50px;
+    }
+
+    .main-experiences {
+        padding-top: 74px;
+        font-size: 1.1rem;
+        color: #D4CAFF;
+    }
+
+    .play-experience {
+        padding-top: 47px;
+    }
+
+    .play-experience>div {
+        display: inline;
+    }
+
+    .play-experience>div:nth-child(2) {
+        margin-left: 30px;
+    }
+
+    .play-experience>div>button {
+        padding: 15px 35px;
+        color: white;
+    }
+
+    .play-store>button {
+        border: 2px solid white;
+        background-color: #7F60FF; 
+    }
+
+    .play-store>button>i {
+        font-size: 25px;
+    }
+
+    .play-store:hover button {
+        border: 2px solid black;
+        background-color: black; 
+    }
+
+    .app-store>button {
+        border: 2px solid black;
+        background-color: black; 
+    }
+
+    .app-store:hover button {
+        border: 2px solid white;
+        background-color: #7F60FF; 
+    }
+
+    .clinets {
+        padding-top: 122px;
+        padding-bottom: 122px;
+    }
+    
+    .class-clinets {
+        padding-top: 31px;
+        width: 349px;
+        height: 368px;
+        border: 1px solid #F0F0F0;
+        margin-top: 72px;
+    }
+
+    .title-clients {
+        font-size: 3.3rem;
+        font-weight: bold;
+    }
+
+    .name-clients {
+        font-size: 1.5rem;
+        font-weight: bold;
+        padding-top: 14px;
+    }
+
+    .rate {
+        padding-top: 10px;
+    }
+
+    .rate>i {
+        color: #F2B827;
+    }
+
+    .comment {
+        padding-top: 10px;
+        padding-left: 30px;
+        padding-right: 30px;
+        font-size: 1.2rem;
+        color: #767676;
     }
